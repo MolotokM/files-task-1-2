@@ -21,5 +21,6 @@ del_by_index()
 #TASK 2 WITH FILES
 with open("/Users/mariiasyrykh/Desktop/test.txt") as text_file:
     lines = text_file.readlines()
+    print(lines)
     for line in reversed(lines):
         print (line)
